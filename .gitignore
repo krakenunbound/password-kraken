@@ -1,0 +1,33 @@
+# Encrypted vault files - NEVER commit these
+*.kraken
+*.kraken.salt
+
+# Build artifacts
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# Installer build artifacts
+src/Installer/bin/
+src/Installer/obj/
+release_installer/
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
+
+# Exports (contain plaintext passwords!)
+*_export.json
+passwords_export.json
+
+# Windows
+Thumbs.db
+Desktop.ini
+nul
+
+# Claude Code
+.claude/
